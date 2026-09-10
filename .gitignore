@@ -1,3 +1,5 @@
+
+#Archivos Genericos
 *.log
 .vscode
 .DS_Store
@@ -5,3 +7,54 @@ Thumbs.bd
 .env
 /tmp
 ReadmeInstall.md
+
+#Node JS
+# Dependencias (Nunca se suben, son muy pesadas)
+node_modules/
+jspm_packages/
+
+# Variables de entorno y secretos (Seguridad crítica)
+.env.local
+.env.*.local
+*.env
+
+# Archivos de registro y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Carpetas de compilación / Producción (Código autogenerado)
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Caché de herramientas y Cobertura de pruebas
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache/
+.tscache/
+.nyc_output/
+coverage/
+.next/
+
+# Archivos del Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Configuración del editor (Opcional, pero recomendado si trabajas solo)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
